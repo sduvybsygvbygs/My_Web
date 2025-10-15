@@ -3,17 +3,18 @@
   max-width: var(--container);
   width: 100%;
   margin-inline: auto;
+
+  &__title{ margin: 0 0 var(--space-6); }
 }
-&__title{ margin: 0 0 var(--space-6); }
 
-/* Секція новин */
-&__title{ margin: 0 0 var(--space-4); }
+.news{
+  &__title{ margin: 0 0 var(--space-4); }
+  .main__title, &__title{ font-size: var(--fs-h2); }
 
-.main__title, &__title{ font-size: var(--fs-h2); }
-
-&__list{
-  display: grid;
-  gap: var(--space-6);
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  &__list{
+    display: grid;
+    gap: var(--space-6);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 }
 
