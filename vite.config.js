@@ -11,7 +11,7 @@ export default defineConfig({
     plugins: [
         handlebars({
             partialDirectory: resolve(__dirname, 'src', 'partials'),
-            context: { siteName: 'Лабораторна 6', labName: 'Лабораторна № 6' },
+            context: { siteName: 'Лабораторна 7', labName: 'Лабораторна № 7' },
             reloadOnPartialChange: true
         }),
     ],
